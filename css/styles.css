@@ -37,6 +37,8 @@ body {
  -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased;
  color: #333333;
+ box-sizing: border-box;
+
 }
 
 h1 {
@@ -173,13 +175,13 @@ img {
 
 @media (max-width: 600px) {
   h2.centerpossum{
-    font: 2em;
+    font-size: 2em;
   }
 }
 
 @media (max-width: 300px) {
   h2.centerpossum{
-    font: 4em;
+    font-size: 3em;
     color: blue;
   }
 }
